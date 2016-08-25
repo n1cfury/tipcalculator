@@ -1,0 +1,14 @@
+#This is a simple calculator to figure the tip amount per your meal. 
+#This is somwhat a work in progress
+
+
+meal = 32.50
+tax = .075  
+tip = 0.15
+
+meal = meal + meal * tax
+total = meal + meal * tip
+
+print("%.2f" % total)
+
+
