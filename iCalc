@@ -1,6 +1,4 @@
 #This is a simple calculator to figure the tip amount per your meal. 
-#This is somewhat a work in progress, and mainly copied via various tutorials in attempts to learn the basics
-
 
 meal = 32.50
 tax = .075  
