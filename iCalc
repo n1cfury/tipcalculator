@@ -10,7 +10,6 @@ meal = meal + meal * tax
 total = meal + meal * tip
 
 
-#Not sure why here:
-print("%.2f" % total)  
+print("%.1f" % total)  
 
 
