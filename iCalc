@@ -7,7 +7,7 @@ tip = 0.15
 meal = meal + meal * tax
 total = meal + meal * tip
 
-
+#The command below designates how many digits passed the decimal I want displayed. Here, I want to tenths place only (rounded up)
 print("%.1f" % total)  
 
 
