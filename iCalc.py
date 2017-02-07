@@ -20,7 +20,7 @@ def banner():
 def main():
 	banner()
 	meal = float(raw_input("How much was your meal? "))			#Asks for cost of meal
-	tax = meal * 0.075
+	tax = meal * 0.075											#Based on CA state tax.
 	tip = 0.15
 	mealtotal = meal + tax
 	finaltotal = total + (tip * mealtotal)							#Calculated final total
